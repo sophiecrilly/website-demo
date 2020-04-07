@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Open Sans', 'Lato', 'Helvetica', sans-serif;
+    font-size: 20px;
 }
 
 img{
@@ -24,4 +25,44 @@ img{
     margin: 0 auto;
 }
 
+.bgRed {
+  background-color: $primaryColour !important;
+}
+
+.textRed {
+  color: $primaryColour;
+}
+
+.textWhite {
+  color: white;
+}
+
+.mainHeading {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    padding: 6px 12px;
+    margin-top: 10px;
+    border-color: transparent;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.buttonRound {
+    border-radius: 15px;
+}
+
+.buttonLarge {
+    font-size: 1.5em;
+    padding: 10px 50px;
+}
+
+
+
 @import 'nav';
+@import 'header';
